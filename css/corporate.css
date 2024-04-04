@@ -1,0 +1,317 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color: #221F30;
+  }
+
+
+  .layout_padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .layout_padding2 {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  
+  .layout_padding2-top {
+    padding-top: 45px;
+  }
+  
+  .layout_padding2-bottom {
+    padding-bottom: 45px;
+  }
+  
+  .layout_padding-top {
+    padding-top: 120px;
+  }
+  
+  .layout_padding-bottom {
+    padding-bottom: 120px;
+  }
+  
+  .heading_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  
+  .heading_container h2 {
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .heading_container h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 55px;
+    height: 5px;
+    background-color: #50A5AF;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  
+  /*header section*/
+  .hero_area {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .hero_area video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .sub_page .hero_area {
+    height: auto;
+  }
+  
+  .sub_page .who_section.layout_padding {
+    padding-top: 0;
+  }
+  
+  .hero_area.sub_pages {
+    height: auto;
+  }
+  
+  .header_section .container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  
+  /* NavBar */
+  .header_section .nav_container {
+    margin: 0 auto;
+  }
+  
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+    margin: 10px 30px;
+    padding: 0;
+    padding-bottom: 3px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link::after {
+    display: none;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active a::after, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover a::after {
+    display: block;
+    background-color: #19265B;
+  }
+  
+  .navbar-bg {
+    background-color: rgba(64, 224, 208, 0.7);
+    z-index: 4;
+  }
+  
+  a,
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:focus {
+    color: initial;
+  }
+  
+  .btn,
+  .btn:focus {
+    outline: none !important;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  
+  .user_option {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .user_option a {
+    color: #ffffff;
+    margin: 10px 30px;
+  }
+  
+  .custom_nav-container .nav_search-btn {
+    background-image: url(../images/search-icon.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border: none;
+  }
+  
+  .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  
+  .navbar-brand span {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .custom_nav-container {
+    z-index: 99999;
+    padding: 15px 0;
+  }
+  
+  .custom_nav-container .navbar-toggler {
+    outline: none;
+  }
+  
+  .custom_nav-container .navbar-toggler .navbar-toggler-icon {
+    background-image: url(../images/menu.png);
+    background-size: 55px;
+  }
+
+#navbar-corporate {
+    position: sticky;
+}
+
+#navbar-corporate a.active {
+	color: #00eaff;
+	font-weight: bold;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link:hover {
+  color:#F1610D;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
+  color:#F1610D;
+}
+
+/* Info section */
+.info_section {
+    background-color: #252233;
+  }
+  
+  .info_items {
+    width: 70%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .info_items .item {
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  
+  .info_items .item .img-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .info_items .item .detail-box {
+    margin-top: 5px;
+    color: #fff;
+  }
+  
+  .info_items {
+    position: relative;
+  }
+  
+  .info_items a {
+    position: relative;
+  }
+  
+  .info_items .item .img-box.box-1 {
+    background-image: url(../images/location-white.png);
+  }
+  
+  .info_items .item .img-box.box-2 {
+    background-image: url(../images/telephone-white.png);
+  }
+  
+  .info_items .item .img-box.box-3 {
+    background-image: url(../images/envelope-white.png);
+  }
+
+  /* footer section*/
+.footer_section {
+    padding: 20px;
+    font-weight: 500;
+    background-color: rgba(64, 224, 208, 0.7);
+  }
+  
+  .footer_section p {
+    color: #292929;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer_section a {
+    color: #292929;
+  }
+  
+ 
+  
