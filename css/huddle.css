@@ -69,7 +69,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-image: url(../images/hero-bg.jpg);
     background-size: cover;
     background-attachment: fixed;
   }
@@ -499,18 +498,6 @@ body {
   
   .info_items a {
     position: relative;
-  }
-  
-  .info_items .item .img-box.box-1 {
-    background-image: url(../images/location-white.png);
-  }
-  
-  .info_items .item .img-box.box-2 {
-    background-image: url(../images/telephone-white.png);
-  }
-  
-  .info_items .item .img-box.box-3 {
-    background-image: url(../images/envelope-white.png);
   }
   
   /* footer section*/
