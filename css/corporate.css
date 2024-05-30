@@ -255,5 +255,38 @@ body {
     color: #292929;
   }
   
- 
+  .container {
+    margin-top: 20px;
+}
+
+.card-custom-bg {
+    background-color: #50A5AF;
+    color: white;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-primary-marketing {
+    background-color: #F1610D;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+}
+
+.btn-primary-marketing:hover {
+    background-color: #d9550b;
+}
+
+.card-footer {
+    background-color: transparent;
+    border-top: none;
+}
   
